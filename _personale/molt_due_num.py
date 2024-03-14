@@ -1,5 +1,4 @@
 import sys
-import prova
 
 args=sys.argv
 if __name__=="__main__":
