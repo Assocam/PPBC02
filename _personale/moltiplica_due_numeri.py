@@ -17,6 +17,5 @@ else:
         print("Hai inserito un valore che non può essere convertito in float")
 
 
-
     risultato = primo_numero * secondo_numero
     print(f"il risultato di {primo_numero} per {secondo_numero} è uguale a {risultato}")
