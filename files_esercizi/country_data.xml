@@ -1,6 +1,7 @@
 <country>
   <name>United Stated of America</name>
   <capital>Washington</capital>
+  <capital>Toronto</capital>
   <states>
     <state>California</state>
     <state>Texas</state>
