@@ -1,0 +1,8 @@
+#elencchiamo le cara.dellle API
+EndPoint   :/login
+Methods     :POST
+Input       : json - username, password
+Example     {"username":"pippo","password":"123"}
+Output      :JSON   - result
+Examples    :{"result":"login ok"},200
+             {"result":"not found"},404
