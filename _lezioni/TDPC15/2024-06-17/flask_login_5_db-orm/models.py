@@ -86,7 +86,7 @@ def init_db(app):
                 for row in csv_reader:
                     new_record = Film(
                         title=row['TITLE'],
-                        image=row['IMAGE']
+                        image=row['IMAGE'],
                     )
                     db.session.add(new_record)
                 db.session.commit()
