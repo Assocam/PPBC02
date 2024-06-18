@@ -3,16 +3,16 @@ from markupsafe import escape
 
 app = Flask(__name__)
 
-@app.route('/projects/')
-def projects():
-    return "the projects page"
-@app.route('/about')
-def about():
-    return 'the about page'
+# @app.route('/projects/')
+# def projects():
+#     return "the projects page"
+# @app.route('/about')
+# def about():
+#     return 'the about page'
 
-@app.route('/post/<int:post_id>')
-def show_post(post_id):
-    return f'Post{post_id}'
+# @app.route('/post/<int:post_id>')
+# def show_post(post_id):
+#     return f'Post{post_id}'
 
 @app.route('/user/<username>')
 def show_user_profile(username):
