@@ -7,7 +7,7 @@ users = {
     "username": "password123"
 }
 
-@app.route('/login', methods=['POST'])
+@app.route('/login', methods=['GET'])
 def fare_login():
     data = request.get_json()
     username = data.get('username')
