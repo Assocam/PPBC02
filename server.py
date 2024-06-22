@@ -29,6 +29,6 @@ def fare_login():
         return jsonify(response), 401
 
 if __name__ == '__main__':
-    app.run(debug=True,port = 80)
+    app.run(debug=True)
 
     
