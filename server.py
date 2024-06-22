@@ -1,13 +1,14 @@
 from flask import Flask, request, jsonify
+import json
 
 app = Flask(__name__)
 
 # Dati di esempio per gli utenti
 users = {
-    "utente": "password123"
+    "Costel": "Camerana2024"
 }
 
-@app.route('/login', methods=['POST'])
+@app.route('/login', methods=['PUT'])
 def fare_login():
     data = request.get_json()
     username = data.get('username')
