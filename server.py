@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 # Dati di esempio per gli utenti
 users = {
-    "username": "password123"
+    "Costel": "Camerana2024"
 }
 
 @app.route('/login', methods=['POST'])
