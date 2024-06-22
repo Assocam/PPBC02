@@ -9,7 +9,7 @@ payload = {
 }
 
 # Invio della richiesta POST
-response = requests.post(url,json=payload)
+response = requests.get(url,json=payload)
 
 # Gestione della risposta
 if response.status_code == 200:
