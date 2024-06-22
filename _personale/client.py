@@ -4,12 +4,12 @@ url = "http://127.0.0.1:80/login"
 
 # Dati di login
 payload = {
-    "username": "Costel",
-    "password": "Camerana2024"
+    "username": "utente",
+    "password": "password123"
 }
 
 # Invio della richiesta POST
-response = requests.post(url, json=payload)
+response = requests.get(url, json=payload)
 
 # Gestione della risposta
 if response.status_code == 200:

@@ -5,10 +5,10 @@ app = Flask(__name__)
 
 # Dati di esempio per gli utenti
 users = {
-    "Costel": "Camerana2024"
+    "username": "password123"
 }
 
-@app.route('/login', methods=['PUT'])
+@app.route('/login', methods=['POST'])
 def fare_login():
     data = request.get_json()
     username = data.get('username')
