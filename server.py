@@ -7,7 +7,7 @@ users = {
     "username": "password123"
 }
 
-@app.route('/login', methods=['GET'])
+@app.route('/login', methods=['POST'])
 def fare_login():
     data = request.get_json()
     username = data.get('username')
@@ -29,6 +29,6 @@ def fare_login():
         return jsonify(response), 401
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True,port = 80)
 
     
