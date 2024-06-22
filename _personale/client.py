@@ -1,6 +1,6 @@
 import requests
 
-url = "http://127.0.0.1:5000/login"
+url = "http://127.0.0.1:80/login"
 
 # Dati di login
 payload = {
