@@ -77,9 +77,6 @@ tot_products = 0
 while True:
     print(f"Scraping page {current_page}...")
     
-    # Se il server risponde con un errore, cosa facciamo?
-    ... # Gestione di un eventuale errore
-
     try:
         page_items = scrape_page(current_page)
     except requests.exceptions.ConnectionError as err:
